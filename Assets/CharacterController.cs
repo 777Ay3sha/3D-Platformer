@@ -19,7 +19,7 @@ public class CharacterController : MonoBehaviour
 
     void Update()
     {
-        transform.position = transform.position + (transform.forward * Input.GetAxis("Vertical"));
+        transform.position = transform.position + (transform.forward * Input.GetAxis("Vertical") * maxSpeed);
         rotation = rotation + Input.GetAxis("Mouse X") * rotationSpeed;
 
         rotation = rotation = Input.GetAxis("Mouse X");
