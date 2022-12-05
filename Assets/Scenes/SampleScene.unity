@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37373945, g: 0.30311877, b: 0.5265912, a: 1}
+  m_IndirectSpecularColor: {r: 0.31314555, g: 0.29378074, b: 0.514074, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -610,7 +610,6 @@ GameObject:
   m_Component:
   - component: {fileID: 339530668}
   - component: {fileID: 339530667}
-  - component: {fileID: 339530666}
   m_Layer: 0
   m_Name: Music Control
   m_TagString: Untagged
@@ -618,18 +617,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &339530666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 339530665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb4594b377f922145a6abd4a0c677586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &339530667
 AudioSource:
   m_ObjectHideFlags: 0
@@ -969,8 +956,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.137137, y: 1.7115949, z: 4.570618}
-  m_Center: {x: -8.391818, y: -1.2622763, z: 1.4762937}
+  m_Size: {x: 4.9990106, y: 2.0111217, z: 5.055123}
+  m_Center: {x: -8.460882, y: -1.1125128, z: 1.2340413}
 --- !u!64 &407870443
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3580,8 +3567,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.137137, y: 1.7115949, z: 4.570618}
-  m_Center: {x: -8.391818, y: -1.2622763, z: 1.4762937}
+  m_Size: {x: 5.137137, y: 1.8701854, z: 4.570618}
+  m_Center: {x: -8.391818, y: -1.1829811, z: 1.4762937}
 --- !u!64 &1498722412
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4250,8 +4237,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.137137, y: 1.7115949, z: 4.570618}
-  m_Center: {x: -8.391818, y: -1.2622763, z: 1.4762937}
+  m_Size: {x: 5.137137, y: 2.1630075, z: 4.7059474}
+  m_Center: {x: -8.391818, y: -1.0365701, z: 1.408629}
 --- !u!64 &1758040047
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10809,6 +10796,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2271640127840668347, guid: 00ace48bcef91394f9030ad82bb610b2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: dbf1180e86c20b941a9aa56ff8eba53c, type: 2}
     - target: {fileID: 3388989048921200751, guid: 00ace48bcef91394f9030ad82bb610b2, type: 3}
       propertyPath: m_Name
       value: Collectable
