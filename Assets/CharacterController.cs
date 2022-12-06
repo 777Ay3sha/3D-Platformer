@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CharacterController : MonoBehaviour
-
 {
 
     public Animator myAnim;
@@ -29,7 +28,7 @@ public class CharacterController : MonoBehaviour
     public GameObject groundChecker;
     public LayerMask groundLayer;
     public float jumpForce = 900.0f;
-
+   
     void Update()
     {
         isOnGround = Physics.CheckSphere(groundChecker.transform.position, 0.1f, groundLayer);

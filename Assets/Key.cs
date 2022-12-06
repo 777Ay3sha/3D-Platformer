@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class Collectable : MonoBehaviour
+public class Key: MonoBehaviour
 {
 
     public static event Action OnCollected;
     public static int total;
-    public AudioClip coinSound;
+    public AudioClip keySound;
 
     void Awake() => total++;
 
@@ -23,9 +23,10 @@ public class Collectable : MonoBehaviour
         {
             OnCollected?.Invoke();
             Destroy(gameObject);
-            AudioSource.PlayClipAtPoint(coinSound, transform.position,1);
+            AudioSource.PlayClipAtPoint(keySound, transform.position);
 
         }
-    } 
-}  
+    }
+}
+
 
